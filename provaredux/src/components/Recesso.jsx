@@ -6,7 +6,7 @@ import {connect} from "react-redux"
 function Recesso (props) {
     const {num} = props
     return (
-        <Card title="Está chegando..." yellow>
+        <Card title="Está chegando..." purple>
             <div>
                 <span>
                     <span>{"Estarei de recesso em "} {num} {" dias."}</span>

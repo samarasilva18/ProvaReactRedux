@@ -21,15 +21,15 @@ function App() {
       </div>
 
       <div className='linha'>
-        <Propriedades></Propriedades>
-      </div>
-
-      <div className='linha'>
-        <Recesso></Recesso>
+        <Propriedades titulo='Qual a sua nota?' aluno='Samara Silva'></Propriedades>
       </div>
 
       <div className='linha'>
         <Sorteio></Sorteio>
+      </div>
+
+      <div className='linha'>
+        <Recesso></Recesso>
       </div>
 
     </div>

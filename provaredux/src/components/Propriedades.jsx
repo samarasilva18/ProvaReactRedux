@@ -6,7 +6,7 @@ import {connect} from "react-redux"
 function Propriedades (props) {
     const {num} = props
     return (
-        <Card {...props.titulo} blue>
+        <Card title={props.titulo} blue>
             <div>
                 <span>
                     <div>

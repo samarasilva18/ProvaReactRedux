@@ -11,7 +11,7 @@ const reducers = combineReducers({
                 }
             default:
                 return{
-                    num: 5
+                    num: 10
                 }
         }
         
